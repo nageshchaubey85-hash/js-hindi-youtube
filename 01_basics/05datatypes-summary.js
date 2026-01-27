@@ -33,6 +33,27 @@ const myfunction = function(){
  // non-primitive type return typeof=object
 //  function always return typeof=object
 
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+// stack(primitive ), Heap (Non primitive)
+
+let myYoutubename="hiteshchoudharydotcom"
+
+let anothername =myYoutubename
+anothername="chaaurcode"
+
+console.log(anothername);
+console.log(myYoutubename);
+let userone={
+    email:"user@google.com",
+    upi:"user@ybl",
+}
+let userTwo=userone
+
+userTwo.email="nagesh@gmail"
+
+console.log(userone.email);
+
+console.log(userTwo.email);
 
 
