@@ -31,6 +31,7 @@ const myfunction = function(){
 }
  //typeofnull=object
  // non-primitive type return typeof=object
+//  function always return typeof=object
 
 
 
